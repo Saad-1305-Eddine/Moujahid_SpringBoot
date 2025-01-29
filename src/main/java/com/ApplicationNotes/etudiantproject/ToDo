@@ -1,0 +1,21 @@
+---- PROJET Gestion Etudiant ----
+(Pour chaque module : un repo , entity , controller, et  service )
+1- Module : ETudiant :
+-> CRUD (ID, NOM,Prenom,DATENAISS,classe ID)
+
+-> Affectation des etudiants a une CLASSE
+-> Moyenne generale /Etudiant
+-> Admis ou Ajourne
+
+2- Module FILIERE : (CRUD =>[ID,NOM])
+
+3- Module CLASSE :( CRUD=>(ID,NOM,NIVEAU(int) ,FILIERE (ID) )
+
+
+4- Module Matiere:(ID,CLASSE(ID) ,NOMMat ) CRUD
+
+
+5- Module NOTES : (ID,Etudiant (ID) ,Matiere (ID))
+
+*Ajout liste NOTES pour une Matiere
+*Recuperer la liste des etudiants en Rattrapage ( Etudiant, Note,Matiere) Par Classe
